@@ -1,0 +1,14 @@
+git init										// Create git repository
+
+git add .										// Add all files newly added files or updated files   . -> all
+
+git status										// It gives the log about the changes that have been made
+
+git commit -m "Comments you want to write"		// It commit/save the changes, It commit the changes in the repository that's been added by $git add command
+
+git remote add origin https://github.com/.....	// Add the remote location where you want to add your local project
+
+git pull --rebase origin master					// It's not actually required, it should be given only when you are creating a new branch for your project
+													though its not required
+
+git push origin master							// used to push the code to origin i.e. remote location
